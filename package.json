@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    …
     "test": "node tests/*.js",
     "build": "npm run test && parcel build src/index.html"
-  }
   },
   "keywords": [],
   "author": "",
