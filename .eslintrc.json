@@ -3,7 +3,7 @@
     "es6": true,
     "browser": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": "eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -14,7 +14,7 @@
   "plugins": ["react"],
   "rules": {
     "semi": "error",
-    "no-console": 0,
+    "no-console": 0
     "react/jsx-uses-vars": "error"
   }
 }

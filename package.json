@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    …
+    "test": "node tests/*.js",
+    "build": "npm run test && parcel build src/index.html"
+  }
   },
   "keywords": [],
   "author": "",
@@ -24,10 +27,4 @@
     "react-async-hook": "^3.6.2",
     "react-dom": "^17.0.1"
   }
-}
-
-"scripts": {
-  …
-  "test": "node tests/*.js",
-  "build": "npm run test && parcel build src/index.html"
 }
